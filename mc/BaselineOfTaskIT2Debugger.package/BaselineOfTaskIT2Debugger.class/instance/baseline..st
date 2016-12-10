@@ -8,7 +8,12 @@ baseline: spec
 			spec
 				baseline: 'MLThreads'
 				with: [ spec repository: 'github://theseion/master-thesis:master/mc' ].
-			spec package: 'TaskIT2Debugger'.
+			spec
+				baseline: 'TaskIt'
+				with: [ spec repository: 'github://sbragagnolo/taskit:master' ].
+			spec
+				package: 'TaskIT2Debugger'
+				with: [ spec requires: #('MLThreads' 'TaskIt') ].
 			spec
 				group: 'default'
-				with: #('MLThreads' 'TaskIT2Debugger') ]
+				with: 'TaskIT2Debugger' ]
