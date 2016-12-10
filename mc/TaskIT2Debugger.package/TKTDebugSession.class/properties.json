@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ThreadDebugSession",
+	"category" : "TaskIT2Debugger",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TKTDebugSession",
+	"type" : "normal"
+}
