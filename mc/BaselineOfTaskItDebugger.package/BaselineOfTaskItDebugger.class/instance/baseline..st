@@ -12,8 +12,8 @@ baseline: spec
 				baseline: 'TaskIt'
 				with: [ spec repository: 'github://sbragagnolo/taskit:dev-0.3' ].
 			spec
-				package: 'TaskIT2Debugger'
+				package: 'TaskItDebugger'
 				with: [ spec requires: #('MLThreads' 'TaskIt') ].
 			spec
 				group: 'default'
-				with: 'TaskIT2Debugger' ]
+				with: 'TaskItDebugger' ]

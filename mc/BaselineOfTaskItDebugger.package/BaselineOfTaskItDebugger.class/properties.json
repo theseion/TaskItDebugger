@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ThreadDebugSession",
-	"category" : "TaskIT2Debugger",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfTaskItDebugger",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TKTDebugSession",
+	"name" : "BaselineOfTaskItDebugger",
 	"type" : "normal"
 }
