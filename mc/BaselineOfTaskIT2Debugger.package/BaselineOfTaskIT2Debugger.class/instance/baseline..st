@@ -10,7 +10,7 @@ baseline: spec
 				with: [ spec repository: 'github://theseion/master-thesis:master/mc' ].
 			spec
 				baseline: 'TaskIt'
-				with: [ spec repository: 'github://sbragagnolo/taskit:master' ].
+				with: [ spec repository: 'github://sbragagnolo/taskit:dev-0.3' ].
 			spec
 				package: 'TaskIT2Debugger'
 				with: [ spec requires: #('MLThreads' 'TaskIt') ].
