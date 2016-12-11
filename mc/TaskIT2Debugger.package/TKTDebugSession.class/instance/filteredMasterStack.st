@@ -3,9 +3,9 @@ filteredMasterStack
 	| masterHolder entryPointHolder |
 	masterHolder := interruptedProcess masterProcessHolder.
 	entryPointHolder := masterHolder findContextHolderSuchThat: [ :contextHolder |
-		contextHolder originalContext selector = #execute and: [
-			contextHolder originalContext receiver class = TKTBuilder ] ].
+		contextHolder originalContext selector = #for: and: [
+			contextHolder originalContext receiver = ProcessHolder ] ].
 		
 	^ entryPointHolder
 		ifNil: [ masterHolder stack ]
-		ifNotNil: [ masterHolder stackStartingAt: entryPointHolder ]
+		ifNotNil: [ masterHolder stackStartingAt: entryPointHolder next ]

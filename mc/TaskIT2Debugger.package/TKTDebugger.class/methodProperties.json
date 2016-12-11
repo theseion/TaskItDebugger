@@ -3,8 +3,8 @@
 	"class" : {
 		"initialize" : "MaxLeske 12/10/2016 20:44",
 		"sessionClass" : "MaxLeske 12/8/2016 21:26",
-		"exampleAsyncTaskInANewProcess" : "MaxLeske 12/10/2016 19:37",
 		"registerToolsOn:" : "MaxLeske 12/10/2016 20:37",
+		"exampleFailure" : "MaxLeske 12/11/2016 10:49",
 		"defaultTitle" : "MaxLeske 12/8/2016 19:56"
 	}
 }
